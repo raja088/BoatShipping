@@ -1,0 +1,872 @@
+/* globle css start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1524px;
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+}
+
+body {
+  font-family: "Fira Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  color: #383939;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  /* text-align: center; */
+}
+p {
+  color: #889495;
+  font-size: 20px;
+  line-height: 26px;
+  font-style: italic;
+  font-weight: 300;
+  /* max-width: 819px;
+  margin: 0 auto; */
+}
+/* globle css end */
+/* Header Section Start Here  */
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+header {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+}
+.heeader-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .menu {
+  display: none;
+}
+nav li a {
+  padding: 17px 35px;
+  color: #7f8c8d;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.demo-btn {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1abc9c;
+  padding: 14px 19px;
+}
+/* Header Section End Here  */
+/* Banner Section Start Here  */
+.banner {
+  background-image: url(../images/bannerimg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 154px 0px;
+  text-align: center;
+}
+.banner-details h1 {
+  color: #ffffff;
+  max-width: 775px;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 29px;
+  font-family: "Montserrat";
+  line-height: 43px;
+  color: #ffffff;
+  line-height: 46px;
+}
+.banner-details p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 62px;
+  /* line-height: 36px; */
+  color: #b4babe;
+}
+.banner-btn {
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1abc9c;
+  padding: 22px 20px;
+}
+.banner-slider-wrapper .slick-dots li button {
+  font-size: 0;
+  background-color: lightgreen;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.banner-slider-wrapper .slick-dots {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Banner Section End Here  */
+/* Shipping Comapny Section Start Here */
+.shipping-company {
+  padding: 93px 0px;
+}
+.company-details {
+  text-align: center;
+}
+
+/* Shipping Comapny Section End Here */
+/* Land Section Start Here  */
+.boatland-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
+  background-color: #ebefef;
+  overflow: hidden;
+}
+
+.boatland-img {
+  width: 50%;
+  background-color: #ebefef;
+  max-height: 500px;
+}
+.boatland-details {
+  padding: 10px 30px 10px 30px;
+  /* padding: 94px 0px 93px 0px; */
+  width: 50%;
+  text-align: left;
+  background-color: #ebefef;
+}
+.boatland-inner {
+  max-width: 548px;
+  margin-right: auto;
+}
+.boatland-inner ul {
+  display: flex;
+  /* column-gap: 50px; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+/* .boatland-inner ul:last-child {
+  margin-right: 0px;
+} */
+.boatland-inner p {
+  margin-bottom: 33px;
+}
+.number {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+  color: #7f8c8d;
+  margin-bottom: 19px;
+  text-align: center;
+  display: block;
+}
+.headings {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  /* 
+  margin: 0 22px; */
+  width: 100%;
+  display: block;
+  font-family: "Montserrat";
+}
+/* Land Section End Here  */
+/*  ShipHere Section start Here*/
+.ship-here {
+  padding: 98px 0px 99px 0px;
+}
+.shiphere-details {
+  text-align: center;
+}
+.shiphere-details p {
+  margin-bottom: 54px;
+}
+
+.card-rows {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1155px;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+.card-rows h3 {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: rgb(33 178 148 / 80%);
+  /* background-color: #1abc9c;
+  opacity: 0.8; */
+  width: 100%;
+  padding: 31px 0px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(100%);
+  font-family: "Montserrat";
+}
+.card:hover h3 {
+  transform: translateY(0%);
+}
+.card {
+  display: flex;
+  width: 31%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 0;
+}
+
+.ship-here-slider .slick-dots li button {
+  font-size: 0;
+  background-color: lightgreen;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.ship-here-slider .slick-dots {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* ShipHere Section End Here */
+/* Choose us section Start Here */
+.boatland-wraper {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: row-reverse;
+  align-items: center;
+  overflow: hidden;
+  background-color: #ebefef;
+}
+
+.boatland {
+  max-width: 548px;
+  margin-left: auto;
+}
+.boatlaand-img {
+  width: 50%;
+  /* background-color: #ebefef; */
+  /* max-height: 500px; */
+}
+.boatland-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boatland-detail {
+  background-color: #ebefef;
+  width: 50%;
+  padding: 100px 0px 100px 0px;
+  margin-left: auto;
+  max-width: 952px;
+  margin: 0 auto;
+  max-height: 500px;
+}
+.boatland-detail h2 {
+  text-align: left;
+  margin-right: 10px;
+}
+
+/* .boatland {
+  margin-left: auto;
+  max-width: 548px;
+} */
+.boatland-iner {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  margin-bottom: 25px;
+}
+.boatland-inr {
+  display: flex;
+  column-gap: 9px;
+  margin-bottom: 25px;
+  align-items: center;
+  column-gap: 13px;
+}
+.botland-iner {
+  display: flex;
+  column-gap: 9px;
+  align-items: center;
+  margin-bottom: 25px;
+  column-gap: 13px;
+}
+.num-text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #889495;
+  line-height: 20px;
+  /* margin-bottom: 48px; */
+  max-width: 397px;
+  margin: 0 auto;
+  font-style: normal;
+}
+.numbers {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  color: #7f8c8d;
+  /* margin-bottom: 58px;
+  margin-right: 10px; */
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #d7dede;
+}
+.hedings {
+  /* text-align: center; */
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  color: #7f8c8d;
+  display: block;
+  /* margin-right: 10px; */
+}
+/* Choose us section End Here */
+/*  Advantages section Start Here */
+.advantages {
+  padding: 96px 0px 96px 0px;
+  background-color: #ffffff;
+}
+/* .advantages .container {
+  max-width: 982px;
+  margin: 0 auto;
+} */
+.advantages-details img {
+  margin-bottom: 30px;
+}
+.advantages-details {
+  text-align: center;
+}
+.advantages-details h2 {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #000000;
+  /* margin-bottom: 32px; */
+  margin-bottom: 25px;
+}
+.advantages-details p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: italic;
+  color: #b2babb;
+  margin-bottom: 75px;
+}
+.card-col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1154px;
+  margin: 0 auto;
+  row-gap: 70px;
+}
+.card-img {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  text-align: center;
+}
+.imgs img {
+  margin-bottom: 35px;
+}
+.card-img h3 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #464646;
+  margin-bottom: 23px;
+  text-align: center;
+}
+.card-img p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #7f8c8d;
+  text-align: center;
+  /* margin-bottom: 70px; */
+  font-style: normal;
+}
+/* Advantages section End Here */
+/* Footer Section Start Her */
+footer {
+  padding: 55px 0px 38px 0px;
+  background: url(../images/neww.png) no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+.footer-details {
+  display: flex;
+  justify-content: center;
+  column-gap: 118px;
+  max-width: 1133px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.footer-logo img {
+  margin-bottom: 12px;
+}
+.boatshiping p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+.boatshiping a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 21px;
+  width: 100%;
+}
+.company h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.company li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e9eaea;
+  /* margin-bottom: 14px; */
+  line-height: 25px;
+}
+.services h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.services li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e9eaea;
+  /* margin-bottom: 14px; */
+  line-height: 25px;
+}
+.solutions h3 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.solutions li a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #e9eaea;
+  /* margin-bottom: 14px; */
+  line-height: 25px;
+}
+.footer-text p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #e9eaea;
+  font-style: normal;
+}
+/* Footer Section End Here */
+/* Responsiveness Css Start */
+
+@media screen and (max-width: 1366px) {
+  .container {
+    padding: 0px 50px;
+  }
+  .demo-btn {
+    font-size: 15px;
+    padding: 11px 19px;
+  }
+  nav li a {
+    font-size: 15px;
+    padding: 17px 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .banner-details h1 {
+    font-size: 40px;
+  }
+  .banner-btn {
+    font-size: 20px;
+    padding: 23px 23px;
+  }
+  nav li a {
+    padding: 13px 15px;
+  }
+  .number {
+    margin-bottom: 7px;
+    font-size: 30px;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+  .boatland-inner p {
+    margin-bottom: 12px;
+  }
+  .boatland-detail {
+    padding: 80px 15px 80px 15px;
+  }
+  .card-img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .demo-btn {
+    font-size: 14px;
+    padding: 11px 19px;
+  }
+  nav li a {
+    font-size: 14px;
+    padding: 10px 9px;
+  }
+  .header-logo {
+    max-width: 103px;
+  }
+  .header-logo img {
+    width: 100%;
+  }
+  .footer-details {
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .number {
+    font-size: 22px;
+  }
+  .headings {
+    font-size: 14px;
+  }
+
+  .boatland-inner {
+    max-width: 667px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .boatland {
+    max-width: 714px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .boatland-img {
+    max-height: 404px;
+  }
+
+  .boatland-detail {
+    padding: 25px 15px 25px 15px;
+    max-width: 100%;
+  }
+  .boatland-wrapper {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 47%;
+    flex-wrap: wrap;
+  }
+  .footer-details div {
+    width: 29%;
+  }
+  .boatland-wraper {
+    flex-wrap: wrap;
+  }
+  .boatland-details {
+    width: 100%;
+    padding: 25px 0px;
+  }
+  .boatland-detail {
+    width: 100%;
+  }
+  .boatland-img {
+    width: 100%;
+  }
+  .num-text p {
+    max-width: 589px;
+  }
+  .hedings {
+    margin-right: 10px;
+    max-width: 79px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    z-index: 1;
+  }
+  .demo-btn-desktop {
+    margin: 0 0;
+  }
+  .card-rows h3 {
+    transform: translateY(0%);
+  }
+  nav {
+    width: 100%;
+    max-width: 106%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #fff;
+    /* display: none; */
+    /* background-color: yellow; */
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-100%);
+    z-index: -7;
+  }
+  nav.active {
+    /* display: block; */
+    transform: translateY(0%);
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 40px 0px;
+  }
+  .boatland-details {
+    padding: 42px 0px;
+  }
+  .banner-details h1 {
+    font-size: 30px;
+  }
+  .banner-details p {
+    font-size: 27px;
+  }
+  .banner-btn {
+    font-size: 16px;
+  }
+  .boatland-inner {
+    max-width: 433px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .num-text p {
+    max-width: 328px;
+  }
+  .card {
+    /* width: 48%; */
+    width: 100%;
+    max-width: 472px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .img {
+    width: 100%;
+  }
+  .img img {
+    width: 100%;
+  }
+  .card-col {
+    flex-wrap: wrap;
+  }
+  .card-img {
+    width: 100%;
+  }
+
+  .boatshiping a {
+    margin-bottom: 10px;
+  }
+  .ship-here {
+    padding: 46px 0px 46px 0px;
+  }
+  .advantages {
+    padding: 50px 0px;
+  }
+  .advantages-details h2 {
+    font-size: 20px;
+  }
+  .card-col {
+    row-gap: 27px;
+  }
+  .banner-details h1 {
+    margin-bottom: 7px;
+
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .boatland-inner h2 {
+    font-size: 18px;
+    line-height: 12px;
+  }
+  header .menu {
+    display: block;
+  }
+  .card-rows h3 {
+    font-size: 16px;
+    font-family: "Montserrat";
+  }
+  .boatland-detail h2 {
+    text-align: center;
+  }
+  .footer-logo img {
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 90px;
+  }
+  .company li a {
+    margin-bottom: 10px;
+  }
+
+  .solutions li a {
+    margin-bottom: 10px;
+  }
+  .services li a {
+    margin-bottom: 10px;
+  }
+  .footer-details div {
+    width: 100%;
+    text-align: center;
+  }
+  .company h3 {
+    margin-bottom: 15px;
+  }
+  .solutions h3 {
+    margin-bottom: 15px;
+  }
+  .services h3 {
+    margin-bottom: 15px;
+  }
+  .footer-details {
+    margin-bottom: 20px;
+  }
+  .boatland-iner {
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .boatland-inr {
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .botland-iner {
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .num {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hedings {
+    /* margin-right: 10px; */
+    max-width: 289px;
+  }
+  .num1 {
+    text-align: center;
+  }
+  .num-text p {
+    line-height: 17px;
+  }
+  .advantages-details p {
+    margin-bottom: 35px;
+  }
+  .banner-btn {
+    font-size: 14px;
+  }
+  .banner-details p {
+    font-size: 21px;
+  }
+  .banner-details h1 {
+    font-size: 21px;
+  }
+  .demo-btn-mobile {
+    display: none;
+  }
+  .boatland-detail {
+    max-height: 800px;
+  }
+  .boatland-inner ul {
+    flex-wrap: nowrap;
+  }
+  .boatland-details {
+    padding: 42px 15px;
+  }
+  .container {
+    padding: 0px 15px;
+  }
+  .shipping-company {
+    padding: 93px 15px;
+  }
+  .boatland {
+    text-align: center;
+  }
+}
+/* Responsiveness Css End */
